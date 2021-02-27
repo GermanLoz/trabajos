@@ -1,0 +1,1028 @@
+/*NAV       RESPONSIVE   */
+.nostrar-res{
+    display:block;
+}
+@media (max-width:1248px){
+.text{
+    display:none;
+}
+.nav-ul {
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-brand img{
+    margin-left:2%;
+}
+.what i{ 
+    margin-right:2%;
+}
+}
+
+
+@media (max-width: 1123px) {
+    /*CODE    FOR    SERVICIOS  */
+.servicios {
+    height:auto;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.styleocult{
+    grid-template-columns: auto auto;
+}
+.divocult3 img{
+    width:35rem;
+}
+    /*    CODE FOR  "PORQUE NOSOTROS"   */
+.nosotros img{
+    display:none;
+    font-size: 0px;
+    width:0px;
+    height: 0px;
+}
+.nosotros-uno{
+    width:15rem;
+    padding-bottom: 3rem;
+}
+.nosotros-dos{
+    right:5%;
+    width:15rem;
+    padding-bottom:3rem;
+}
+/*CODE     FOR        MARCAS*/
+.contenedor-marcas{
+    grid-template-columns: auto auto auto auto;
+}
+}
+@media (max-width:918px){
+/* CODE      FOR     NAV    */
+.nav{
+    display:none;
+}
+.button-res{
+    background:linear-gradient(to left,#dfb55a, #fdc55c, #ecae26); ;
+    width:100%;
+    display:block;
+    padding:1rem 1.5rem;
+    font-size: 35px;
+}
+.nav-responsive{
+    width:100%;
+    text-align: center;
+    background:#ffb006;
+    height:auto;
+    padding:1rem 0rem;
+}
+.nav-responsive li{
+    padding:7px 0px;
+}
+.nav-ul-r a{
+    text-align: center;
+    color:#ffffffff;
+    text-shadow: 1.5px 1.5px 1.5px #000;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-ul-r i{
+    text-shadow: none;
+    background:#00bb2d;
+    color: #ffffff;
+    font-size: 35px;
+    padding:5px 90px;
+    border-radius: 5px;
+}
+}
+@media (max-width:760px){
+/* CODE    TOP*/
+.top{
+    padding:0px 2%;
+}
+.top i{
+    padding: 0px 5px;
+    margin-left:0%;
+}
+/*CODE     FOR     SERVICIOS*/
+.servicios{
+    grid-template-columns: auto;
+    height: auto;
+}
+.styleocult{
+    grid-template-columns: auto;
+}
+/* PORQUE NOSOTROS CODE*/
+.nosotros-uno{
+    width:12rem;
+    left:5%;
+}
+.nosotros-dos{
+    width:12rem;
+}
+
+/* CODE     FOR    MARCAS*/
+/*CODE   FOR PRINCIPIO*/
+.textoimg1{
+    margin:0px;
+    font-size: 3rem;
+    padding:30px 0px 0px 5%;
+}
+.text3{
+    margin-left:2%;
+    font-size: 30px;
+}
+.contenedor-marcas{
+    grid-template-columns: auto auto auto;
+}
+}
+@media (max-width:607px){
+/*CODE    FOR   TRABAJOS*/
+.contenedor-img-carrosel{
+    width:80%;
+    height: auto;
+}
+.contenedor-img-carrosel img{
+    height:38rem;
+    margin-left: 15%;
+    width:10rem;
+}
+.contenedor-img-carrosel i{
+    font-size: 2.3rem;
+}
+#flechaLeft{
+    margin-top: 35%;
+    left:1%;
+}
+#flechaRight{
+    margin-top: 35%;
+    right:1%;
+}
+/*CODE       NAV*/
+.nav-ul-r a{
+    font-size: 20px;
+}
+.nav-ul-r i{
+    text-shadow: none;
+    background:#00bb2d;
+    color: #ffffff;
+    font-size: 25px;
+    padding:5px 80px;
+    border-radius: 5px;
+}
+/* CODE FOR   MARCAS */
+.grid-marcas {
+    display:none;
+}
+.marcas-aire{
+    display:block;
+    width:100%;
+    height:10rem;
+    margin:0px;
+}
+/* SERVICIOS    CODE  */
+.divocult3{
+    height:28rem;
+}
+.divocult3 img{
+    height:18rem ;
+    width:22rem;
+}
+/*CODE     FOR     PORQUE NSOTROS*/
+.nosotros-grid{
+    width:10rem;
+}
+.nosotros-uno{
+    width:9rem;
+    height:auto,
+}
+.nosotros-dos{
+    width:9rem;
+    height:auto;
+    left:25%;
+}
+/*   CODE   FOR MARCAS*/
+.contenedor-marcas{
+    grid-template-columns: auto auto;
+}
+}
+@media (max-width:449px){
+/* CODE    FOR     NAV   */
+.nav-ul-r a{
+    font-size: 18px;
+}
+.nav-ul-r i{
+    text-shadow: none;
+    background:#00bb2d;
+    color: #ffffff;
+    font-size: 25px;
+    padding:5px 60px;
+    border-radius: 5PX;
+}
+/*CODE FOR MARCAS  */
+.titulo-marcas{
+    font-size: 1.5rem;
+    height:auto;
+}
+.top{
+    height:auto;
+}
+.top i{
+    padding-bottom: 0.5rem;
+}
+}
+@media (max-width:365px){
+    /* CODE    FOR     NAV   */
+.nav-ul-r a{
+    font-size: 15px;
+}
+.nav-ul-r i{
+    text-shadow: none;
+    background:#00bb2d;
+    color: #ffffff;
+    font-size: 25px;
+    padding:5px 40px;
+    border-radius: 5PX;
+}
+.nav-ul-r i:hover{
+    background:rgb(92, 91, 91);
+}
+/*  CODE    FOR    PRINCIPIO   */
+.imagenes{
+    width:100%;
+    height:25em ;
+}
+.textoimg1{
+    font-size:2rem;
+}
+.txt2{
+    font-size: 19px;
+    margin-top:19rem;
+}
+.text3{
+    font-size: 25px;
+}
+/*  SERVICIOS   CODE   */
+
+.imggrid{
+    height:12rem;
+    width:15rem;
+}
+.divocult3{
+    height:23rem;
+}
+.divocult3 img{
+    height:14rem ;
+    width:16rem;
+}
+/*CODE   PORQUE  NOSOTROS  */
+.nosotrostitulo{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+.nosotros div{
+    grid-template-columns: auto;
+}
+.nosotros-dos{
+    width:15rem;
+    left:3%;
+}
+.nosotros-uno{
+    width:15rem;
+    left:3%;
+}
+/*MARCAS    CODE   */
+.grid-marcas{
+    width:4rem;
+    height:4.7;
+}
+}
+@media (max-width:268px){
+.top span{
+    font-size: 13px;
+}
+.text3{
+    font-size: 17px;
+}
+/*   CODE    FOR   SERVICIOS  */
+.imagenes{
+    height:25rem;
+}
+.imggrid{
+    font-size: 0px;
+    width:12rem;
+    height:8rem;
+}
+.servicios .hgrid {
+    font-size: 1.2rem;
+}
+.styleocult .hgridd {
+    font-size: 1.2rem;
+}
+.divocult3{
+    height:20rem;
+}
+.divocult3 img{
+    height:10rem ;
+    width:12rem;
+}
+/*  PORQUE    NOSTROS  */
+.nosotros-grid{
+    left:2%;
+}
+.nosotros-dos{
+    width:12rem;
+}
+.nosotros-uno{
+    width:12rem;
+}
+/* CONTACTOS */
+.contactos-principio span{
+    position:absolute;
+    margin-top: 2rem;
+}
+}
+
+
+
+/* RESPONSIVE     FOR     HTML    SERVICES   */
+@media (max-width:1320px){
+/* CODE     FOR   SERVICIOS   GRID   */
+.servicios-grid  div{
+    display:relative;
+    width:18rem;
+    margin:2rem 5rem 2rem 5rem;
+}
+.servicios-grid{
+     display: grid;
+    grid-template-columns: auto auto;
+    padding-top:5rem;
+    justify-content: center;
+}
+.con-grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin:0px;
+    margin-left: 25rem;
+}
+}
+@media (max-width:790px){
+/*   CODE     FOR     PRICIPIO   SERVICES  */
+.principio-service p{
+    margin:-12rem 0rem 0rem 5%;
+    font-size: 3rem;
+}
+/* CODE     FOR    CON        GRID*/
+.servicios-grid div{
+    width:10rem;
+    margin:2rem 1.5rem 2rem 1.5rem;
+}
+.Con-grid {
+    padding:0rem 7.5rem 24rem 7.5rem;
+}
+}
+@media (max-width:790px){
+/*   CODE     FOR     PRICIPIO   SERVICES  */
+.principio-service p{
+    margin:-13rem 0rem 0rem 5%;
+    font-size: 2.3rem;
+}
+/* CODE     FOR    CON        GRID*/
+.servicios-grid div{
+    width:10rem;
+    margin:2rem 0.5rem 2rem 0.5rem;
+}
+.Con-grid {
+    padding:0rem 6rem 20rem 6rem;
+}
+}
+@media (max-width:422px){
+/*   CODE     FOR     PRICIPIO   SERVICES  */
+.principio-service p{
+    margin:-14rem 0rem 0rem 5%;
+    font-size: 2rem;
+}
+/* CODE     FOR    CON        GRID*/
+.servicios-grid div{
+    width:10rem;
+    margin:2rem 0.5rem 2rem 0.5rem;
+}
+.Con-grid {
+    padding:0rem 5rem 18rem 5rem;
+}
+.Con-grid i {
+    margin:-5rem 0rem 1.2rem 2rem;
+}
+}
+@media (max-width:793px){
+/* CODE     FOR    CON        GRID*/
+.transicion{
+    padding:0px;
+    margin:0px;
+}
+.servicios-grid{
+    height:auto;
+    grid-template-columns: auto;
+}
+.servicios-grid div{
+    width:25rem;
+    margin:2rem 0rem;
+}
+.hone{
+    margin-left: 1.6rem;
+}
+.Con-grid {
+    padding:0rem 7rem 18rem 7rem;
+}
+.Con-grid i {
+    margin:-5rem 0rem 1.2rem 10.5rem;
+}
+.pedir-presupuesto{
+    margin-top: 0rem;
+}
+.contenedor-formas-trabajamos{
+    margin-top: 9rem;
+}
+.Con-grid p{
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+}
+@media (max-width:417px){
+/* CODE     FOR    CON        GRID*/
+.servicios-grid{
+    height:auto;
+    grid-template-columns: auto;
+}
+.Con-grid p{
+    margin-left: 0.5rem;
+    margin-top: 10rem;
+}
+.hone{
+    margin-left: 1rem;
+}
+.servicios-grid div{
+    width:16rem;
+    margin:2rem 0rem;
+    height:21rem;
+}
+.Con-grid i {
+    margin:-5rem 0rem 1.2rem 6rem;
+}
+.contenedor-formas-trabajamos{
+    margin-top: 9rem;
+}
+}
+/* CODE  RESPONSIVE   FORMAS   */
+@media (max-width:1158px){
+    .imagen-circulo{
+        display:none;
+}
+.p-servicios-uno{
+    position:relative;
+    margin:0px;
+    margin-left: 18.5%;
+    padding-top: 6rem;
+}
+.p-title-uno{
+    position: absolute;
+}
+.p-servicios-dos{
+    position:absolute;
+    margin:6rem 0rem 0rem 0rem;
+    right:3%;
+}
+}
+@media (max-width:700px){
+.contenedor-formas-trabajamos{
+    height:auto;
+}
+.contenedor-formas-trabajamos div{
+    grid-template-columns: auto;
+    position: relative;
+}
+.p-servicios-uno{
+    position:relative;
+    margin:auto;
+    padding:10px 0px;
+}
+.p-title-uno{
+    position: relative;
+    margin:0px;
+    padding:0px;
+    margin:auto;
+}
+.p-servicios-dos{
+    right:0%;
+    position:relative;
+    padding:10px 0px;
+    margin:6rem 0rem 0rem 0rem;
+    margin:auto;
+}
+.p-title-dos{
+    position:relative;
+    margin:auto;
+    padding:0px;
+}
+}
+@media (max-width:347px){
+.contenedor-formas-trabajamos{
+    padding-top:5rem;
+}
+.p-title-uno{
+    font-size: 1.4rem;
+    width:15rem;
+}
+.p-title-dos{
+    font-size: 1.4rem;
+    width:15rem;
+}
+.p-servicios-uno{
+    font-size: 1rem;
+    width:12rem;
+}
+.p-servicios-dos{
+    font-size: 1rem;
+    width:12rem;
+}
+}
+@media (max-width:243px){
+/*    CODE     FOR        PRINCIPIOS  */
+.top span{
+    font-size:0.65rem;
+}
+.boton-presupuesto{
+    width: 10rem;
+    font-size: 1.3rem;
+}
+.top i{
+    font-size: 0.7rem;
+}
+
+/* CODE    FOR    CON    GRID   */
+.transicion{
+    padding:0px;
+    margin:0px;
+}
+.servicios-grid{
+    height:auto;
+    grid-template-columns: auto;
+}
+.Con-grid p{
+    width:11rem;
+    margin-top: 11rem;
+}
+.servicios-grid div{
+    width:10rem;
+    height:25rem;
+    margin:2rem 0rem;
+}
+.Con-grid {
+    padding:0rem 6rem 18rem 6rem;
+}
+.Con-grid i {
+    margin:-5rem 0rem 1.2rem 4rem;
+}
+.pedir-presupuesto button{
+    font-size: 1.2rem;
+}
+.contenedor-formas-trabajamos{
+    margin-top: 5rem;
+}
+/*   CODE    FOR    FORMAS   */
+.p-title-uno{
+    font-size: 1.2rem;
+    width:12rem;
+}
+.p-title-dos{
+    font-size: 1.2rem;
+    width:12rem;
+}
+.p-servicios-uno{
+    font-size: 1rem;
+    width:10rem;
+}
+.p-servicios-dos{
+    font-size: 1rem;
+    width:10rem;
+}
+.principio-service p{
+    margin:-14rem 0rem 0rem 5%;
+    font-size: 1.5rem;
+}
+}
+
+/*   RESPONSIVE       FOR         CONTACTOS     */
+
+@media (max-width:1000px){
+.contactos-principio h1{
+    font-size: 4rem;
+}
+.contacto-whatsapp{
+    height:auto;
+    padding-bottom: 2rem;
+}
+ .contacto-whatsapp p{
+     padding: 4rem 0rem 0rem 0rem;
+ }
+ .contacto-whatsapp i {
+     display:flex;
+     font-size: 13rem;
+     margin:auto;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     justify-content: center;
+     color: #ffffffff;
+}
+.contacto-boton{
+    margin-top: 1rem;
+}
+.contacto-numero{
+    height:auto;
+    padding-bottom: 2rem;
+}
+ .contacto-numero p{
+     padding: 4rem 0rem 0rem 0rem;
+ }
+ .contacto-numero i {
+     display:flex;
+     font-size: 13rem;
+     margin:auto;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     justify-content: center;
+     color: #ffffffff;
+}
+
+/**/
+
+.contacto-instagram{
+    height:auto;
+    padding-bottom: 2rem;
+}
+ .contacto-instagram p{
+     padding: 4rem 0rem 0rem 0rem;
+ }
+ .contacto-instagram i {
+     display:flex;
+     font-size: 13rem;
+     margin:auto;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     justify-content: center;
+     color: #ffffffff;
+}
+
+/**/
+.contacto-facebook{
+    height:auto;
+    padding-bottom: 2rem;
+}
+ .contacto-facebook p{
+     padding: 4rem 0rem 0rem 0rem;
+ }
+ .contacto-facebook i {
+     display:flex;
+     font-size: 13rem;
+     margin:auto;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     justify-content: center;
+     color: #ffffffff;
+}
+.contacto-facebook a{
+    margin-top: 1rem;
+}
+
+/**/
+
+.contacto-gmail{
+    height:auto;
+    padding-bottom: 2rem;
+}
+ .contacto-gmail p{
+     padding: 4rem 0rem 0rem 0rem;
+ }
+ .contacto-gmail i {
+     display:flex;
+     font-size: 13rem;
+     margin:auto;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     justify-content: center;
+     color: #ffffffff;
+}
+}
+@media (max-width:607px){
+.contactos-principio h1{
+    font-size: 2.5rem;
+}
+}
+@media (max-width:391px){
+.contactos-principio h1{
+    font-size: 1.8rem;
+}
+.contactos-principio {
+    height:24rem;
+}
+.contacto-whatsapp{
+    height:auto;
+}
+ .contacto-whatsapp p{
+     font-size: 1.8rem;
+ }
+ .contacto-whatsapp i {
+     font-size: 10rem;
+}
+.contacto-boton{
+    font-size: 1.5rem;
+    width:11rem;
+}
+ .contacto-numero p{
+     font-size: 1.5rem;
+ }
+ .contacto-numero i {
+     font-size: 10rem;
+}
+
+/**/
+ .contacto-instagram p{
+     font-size: 1.5rem;
+ }
+ .contacto-instagram i {
+     font-size: 10rem;
+}
+
+/**/
+ .contacto-facebook p{
+     font-size: 1.5rem;
+ }
+ .contacto-facebook i {
+     font-size: 10rem;
+}
+.contacto-facebook a{
+    margin-top: 1rem;
+    width:11rem;
+}
+ .contacto-gmail p{
+     font-size: 1.5rem;
+ }
+ .contacto-gmail i {
+     font-size: 10rem;
+}
+}
+@media (max-width:293px){
+.contactos-principio h1{
+    font-size: 1.4rem;
+}
+.contactos-principio {
+    height:20rem;
+}
+.contacto-whatsapp{
+    height:auto;
+}
+ .contacto-whatsapp p{
+     font-size: 1.3rem;
+ }
+ .contacto-whatsapp i {
+     font-size: 8rem;
+}
+.contacto-boton{
+    font-size: 1.3rem;
+    width:10rem;
+}
+ .contacto-numero p{
+     font-size: 1.3rem;
+ }
+ .contacto-numero i {
+     font-size: 8rem;
+}
+
+/**/
+ .contacto-instagram p{
+     font-size: 1.3rem;
+ }
+ .contacto-instagram i {
+     font-size: 8rem;
+}
+
+/**/
+ .contacto-facebook p{
+     font-size: 1.3rem;
+ }
+ .contacto-facebook i {
+     font-size: 8rem;
+}
+.contacto-facebook a{
+    margin-top: 1rem;
+    width:10rem;
+}
+ .contacto-gmail p{
+     font-size: 1.3rem;
+ }
+ .contacto-gmail i {
+     font-size: 8rem;
+}
+}
+
+/*   CODE     FOR     TRANAJOS   */
+
+@media (max-width:1079px){
+.contenedor-img-carrosel img{
+    height:90%;
+    width:70%;
+}
+#flechaRight{
+    right:3%;
+}
+#flechaLeft{
+    left:3%;
+}
+}
+@media (max-width:816px){
+.trabajos-encabezado h1{
+    font-size: 3.5rem;
+}
+.title-trabajos{
+    font-size: 2.5rem;
+}
+.contenedor-img-carrosel img{
+    height:60%;
+    width:70%;
+}
+.contenedor-img-carrosel i{
+    font-size: 3.5rem;
+}
+#flechaLeft{
+    margin-top: 9rem;
+}
+#flechaRight{
+    margin-top: 9rem;
+}
+}
+@media (max-width:700px){
+.trabajos-encabezado h1{
+    font-size: 2.5rem;
+}
+.title-trabajos{
+    font-size: 2rem;
+}
+.contenedor-img-carrosel img{
+    height:50%;
+    width:70%;
+}
+.contenedor-img-carrosel i{
+    font-size: 3rem;
+}
+#flechaLeft{
+    margin-top: 7rem;
+    left:1%;
+}
+#flechaRight{
+    margin-top: 7rem;
+    right:1%;
+}
+}
+@media (max-width:427px){
+.trabajos-encabezado h1{
+    font-size: 2rem;
+    margin-left: 1%;
+    margin-top: 19rem;
+}
+.title-trabajos{
+    font-size: 1.5rem;
+    align-items: center;
+    height:8rem;
+}
+.trabajos-encabezado h1{
+    font-size: 1.5rem;
+    margin-top: 20rem;
+}
+.title-trabajos{
+    font-size: 1.3rem;
+    height:7rem;
+}
+.contenedor-img-carrosel{
+    width:80%;
+    height:18rem;
+}
+.contenedor-img-carrosel img{
+    height:100%;
+    margin-left: 10%;
+    width:78%;
+}
+.contenedor-img-carrosel i{
+    font-size: 2.3rem;
+}
+#flechaLeft{
+    margin-top: 35%;
+    left:1%;
+}
+#flechaRight{
+    margin-top: 35%;
+    right:1%;
+}
+}
+@media (max-width:321px){
+.trabajos-encabezado h1{
+    font-size: 1.5rem;
+    margin-top: 20rem;
+}
+.title-trabajos{
+    font-size: 1.3rem;
+    height:7rem;
+}
+.contenedor-img-carrosel{
+    width:80%;
+    height:18rem;
+}
+.contenedor-img-carrosel img{
+    height:100%;
+    margin-left: 10%;
+    width:78%;
+}
+.contenedor-img-carrosel i{
+    font-size: 2.3rem;
+}
+#flechaLeft{
+    margin-top: 35%;
+    left:1%;
+}
+#flechaRight{
+    margin-top: 35%;
+    right:1%;
+}
+}
+/* CODE     BOTTOM     */
+@media (max-width:890px){
+.contenedor-bottom{
+    height:auto;
+    padding-bottom: 2rem;
+}
+.contenedor-bottom div{
+    display:block;
+}
+.copyright{
+    padding: 0.5rem 0rem;
+}
+.redes-sociales{
+    display: flex;
+    height:auto;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+ .redes-sociales i{
+    display:flex;
+    margin:auto;
+    border-radius:20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+.redes-sociales p{
+     position: relative;
+     width: 10%;
+     text-decoration: underline;
+     font-size: 1.2rem;
+     border-bottom: none;
+     margin-top: 0rem;
+}
+.creditos{
+     margin-top: -2.5rem;
+}
+}
+@media (max-width:600px){
+.copyright{
+    padding: 0.5rem 0rem;
+}
+.redes-sociales{
+    display: flex;
+    height:auto;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+ .redes-sociales i{
+    display:flex;
+    margin:auto;
+    border-radius:20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+.redes-sociales p{
+    width:90%;
+    margin:auto;
+    margin-left: -0.5%;
+    text-align: center;
+     font-size: 1.1rem;
+}
+.creditos {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+}
